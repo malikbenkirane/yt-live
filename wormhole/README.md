@@ -78,3 +78,12 @@ The **[live-share](https://github.com/azratul/live-share.nvim)** plugin heavily 
     # $USERPROFILE/.cargo/config
     [build]
     target = ["x86_64-unknown-linux-gnu", "i686-unknown-linux-gnu"]
+
+## Annexes
+
+- <https://github.com/redeltaglio>
+- <https://github.com/redeltaglio/altBSD_network>
+- <https://docs.cloud.google.com/confidential-computing/confidential-vm/docs/confidential-vm-overview>
+- <https://cloud.google.com/compute/vm-instance-pricing>
+- <https://cloud.google.com/compute/all-pricing>
+- <https://cloud.google.com/confidential-computing/confidential-vm/pricing>
