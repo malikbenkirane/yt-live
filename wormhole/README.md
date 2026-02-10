@@ -6,6 +6,11 @@ Mailbox Server and a Transit Relay.
 The command line tool (wormhole) is preconfigured to use public servers, so
 running your own is for custom or production environments. 
 
+<!-- toc -->
+- [Running the Servers](#running-the-servers)
+- [Private Wormhole Relay Installation](#private-wormhole-relay-installation)
+<!-- /toc -->
+
 ## Running the Servers
 
 First activate venv (check `.venv/bin` for the appropriate script to source)
@@ -31,3 +36,4 @@ Activate env
 Install requirements
 
     uv pip install magic-wormhole-mailbox-server magic-wormhole-transit-relay
+
