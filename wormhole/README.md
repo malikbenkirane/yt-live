@@ -50,3 +50,31 @@ tunneling isn’t handled by any third‑party service and must be set up manual
 
 The **[live-share](https://github.com/azratul/live-share.nvim)** plugin heavily relies on reverse tunneling services like <https://serveo.net> and <https://localhost.run>
 
+## Build Teamtype (MSYS2)
+
+<https://github.com/rust-lang/rust/blob/main/INSTALL.md#building-on-windows/>
+
+    pacman -S make \
+                diffutils \
+                tar \
+                mingw-w64-x86_64-python \
+                mingw-w64-x86_64-cmake \
+                mingw-w64-x86_64-gcc \
+                mingw-w64-x86_64-ninja
+
+    pacman -S mingw-w64-clang-x86_64-rust mingw-w64-clang-x86_64-clang
+
+    $USERPROFILE/.cargo/bin/rustup target add x86_64-pc-windows-msvc
+    $USERPROFILE/.cargo/bin/rustup target add x86_64-pc-windows-gnu
+
+    $USERPROFILE/.cargo/bin/rustc --print=cfg
+
+
+    $USERPROFILE/.cargo/bin/rg --files -g gcc.exe /
+
+    PATH=$PATH:/mingw64/bin \
+    $USERPROFILE/.cargo/bin/cargo install teamtype --target=x86_64-pc-windows-gnu
+
+    # $USERPROFILE/.cargo/config
+    [build]
+    target = ["x86_64-unknown-linux-gnu", "i686-unknown-linux-gnu"]
