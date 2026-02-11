@@ -1,4 +1,7 @@
-#  Private Magic Wormhole server
+Private Magic Wormhole server
+=============================
+
+--magic-wormhole-relay ws://10.20.10.2:4001/v1
 
 To start your own Magic Wormhole server, you need to install and run both a
 Mailbox Server and a Transit Relay.
@@ -15,7 +18,8 @@ running your own is for custom or production environments.
 - [Annexes](#annexes)
 <!-- /toc -->
 
-## Running the Servers
+Running the Servers
+----------------------
 
 First activate venv (check `.venv/bin` for the appropriate script to source)
 
@@ -27,21 +31,8 @@ Start transit relay
 
     twist transitrelay --port=tcp:4001
 
-## Private Wormhole Relay Installation
-
-Create venv
-
-    uv venv
-
-Activate env
-
-    source .venv/bin/activate.fish # or follow instruction
-
-Install requirements
-
-    uv pip install magic-wormhole-mailbox-server magic-wormhole-transit-relay
-
-## Neovim Plugins
+Private Wormhole Relay Installation
+--------------------------------------
 
 Since the PyPI package is outdated, you can use the repository directly:
 
@@ -51,6 +42,7 @@ uv venv
 cd magic-wormhole-mailbox-server
 python setup.py install
 ```
+
 **Using PyPI**
 
 1. **Create a virtual environment**  
@@ -71,6 +63,8 @@ python setup.py install
    uv pip install magic-wormhole-mailbox-server magic-wormhole-transit-relay
    ```
 
+Neovim Plugins
+--------------
 
 Adapt the plugin‑configuration examples that use <lazy.nvim> so they work with
 whichever package manager you prefer.
@@ -132,11 +126,13 @@ TeamType
     [build]
     target = ["x86_64-unknown-linux-gnu", "i686-unknown-linux-gnu"]
 
-## Wireguard
+Wireguard
+---------
 
 <https://gist.github.com/malikbenkirane/f9ed53dac24267fc660b6810d85faba7>
 
-## Annexes
+Annexes
+-------
 
 - <https://github.com/redeltaglio>
 - <https://github.com/redeltaglio/altBSD_network>
