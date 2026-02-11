@@ -59,7 +59,22 @@ The **[teamtype-nvim](https://github.com/teamtype/teamtype-nvim)** meant to be
 used with Teamtype, but can also be configured to work with other collaborative
 software speaking the same protocol.
 
-## Build Teamtype (MSYS2)
+TeamType
+--------
+
+### Nvim Plugin
+
+<https://github.com/teamtype/teamtype-nvim>
+
+### Private Relay
+
+    teamtype share --magic-wormhole-relay RELAY_URL
+
+### Installation
+
+    brew install teamtype
+
+### Build Teamtype (MSYS2)
 
 <https://github.com/rust-lang/rust/blob/main/INSTALL.md#building-on-windows/>
 
