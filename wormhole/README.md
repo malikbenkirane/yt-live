@@ -10,6 +10,9 @@ running your own is for custom or production environments.
 - [Running the Servers](#running-the-servers)
 - [Private Wormhole Relay Installation](#private-wormhole-relay-installation)
 - [Neovim Plugins](#neovim-plugins)
+- [Build Teamtype (MSYS2)](#build-teamtype-msys2)
+- [Wireguard](#wireguard)
+- [Annexes](#annexes)
 <!-- /toc -->
 
 ## Running the Servers
@@ -78,6 +81,10 @@ The **[live-share](https://github.com/azratul/live-share.nvim)** plugin heavily 
     # $USERPROFILE/.cargo/config
     [build]
     target = ["x86_64-unknown-linux-gnu", "i686-unknown-linux-gnu"]
+
+## Wireguard
+
+<https://gist.github.com/malikbenkirane/f9ed53dac24267fc660b6810d85faba7>
 
 ## Annexes
 
