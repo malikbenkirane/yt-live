@@ -51,7 +51,13 @@ maintained. It was designed to supply observers for collaborative work, but
 tunneling isn’t handled by any third‑party service and must be set up manually
 (e.g. see [wireguard section](#wireguard)).
 
-The **[live-share](https://github.com/azratul/live-share.nvim)** plugin heavily relies on reverse tunneling services like <https://serveo.net> and <https://localhost.run>
+The **[live‑share](https://github.com/azratul/live-share.nvim)** plugin depends
+heavily on reverse‑tunneling services such as <https://serveo.net> and
+<https://localhost.run>, and it does not provide support for private relays.
+
+The **[teamtype-nvim](https://github.com/teamtype/teamtype-nvim)** meant to be
+used with Teamtype, but can also be configured to work with other collaborative
+software speaking the same protocol.
 
 ## Build Teamtype (MSYS2)
 
