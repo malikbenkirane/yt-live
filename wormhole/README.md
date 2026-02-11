@@ -1,8 +1,6 @@
 Private Magic Wormhole server
 =============================
 
---magic-wormhole-relay ws://10.20.10.2:4001/v1
-
 To start your own Magic Wormhole server, you need to install and run both a
 Mailbox Server and a Transit Relay.
 
@@ -30,6 +28,10 @@ Start mailbox server
 Start transit relay
 
     twist transitrelay --port=tcp:4001
+
+Finally
+
+    teamtype share --magic-wormhole-relay ws://10.20.10.2:4001/v1
 
 Private Wormhole Relay Installation
 --------------------------------------
