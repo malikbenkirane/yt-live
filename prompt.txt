@@ -1,0 +1,82 @@
+**Video Description (4‑5 sentences)**  
+Feeling the **digital overwhelm** while juggling multiple ideas? In this **live coding** session I’ll show you how to **organize** a fun **side project** using **Flutter**, complete with a handy **relay** pattern that lets you switch contexts with a simple **Ctrl Alt** shortcut. Watch as the app comes together step‑by‑step, and pick up practical tricks to keep your codebase clean and your workflow stress‑free. By the end you’ll have a solid foundation you can reuse on any future project—no more chaotic tabs or missed deadlines!  
+
+---
+
+**Caption**  
+🚀 Beat the **digital overwhelm** – live‑code a Flutter side‑project in minutes!  
+
+---
+
+### Tiered Hashtags  
+
+
+Tech 
+Programming 
+Coding 
+FlutterDev 
+LiveCoding 
+SideProject 
+ProductivityTips 
+AppDevelopment 
+DeveloperLife 
+DigitalOverwhelmSolutions 
+CtrlAltWorkflow 
+FlutterRelayPattern 
+OrganizeYourCode 
+SideProjectFlutter 
+LiveCodingFlutter 
+RelayStateManagement 
+TechStressRelief
+
+"Act as a YouTube SEO strategist. I have a list of target keywords for my next video: **digital overwhelm relay ctrl alt organize live coding flutter side project** .
+
+git clone https://github.com/malikbenkirane/tmr --branch nightly
+
+Using only these keywords as a foundation:
+1.  **Write a Video Description:** Write a natural, engaging 4-5 sentence video description that seamlessly incorporates all of these keywords without sounding robotic.
+2.  **Write a Caption:** Create a short, punchy caption for the video link that includes the primary keyword (the first one in my list).
+3.  **Generate Tiered Hashtags:** Create a list of 15 hashtags based on these keywords. Categorize them into:
+    - **3 Broad hashtags** (High competition, e.g., #Tech)
+    - **5 Medium hashtags** (Mid competition, e.g., #iPhoneTips)
+    - **7 Niche/Long-tail hashtags** (Lower competition, specific to my keywords, e.g., #iPhone15BatteryHealth)"
+---
+
+### Option 2: The "Keyword Combination" Prompt
+Use this if your keywords are slightly different and you need help connecting them into a coherent story.
+
+**Prompt:**
+> "I am creating a YouTube video. Here is a list of keywords related to the content: **[List keywords, e.g., 'sourdough starter, feeding schedule, discard recipes, bubbling not rising']** .
+>
+> Please generate a compelling YouTube caption and a set of hashtags based on this list.
+> - **The Caption:** Should read like a human wrote it, connecting these keywords into a helpful tip or a question for the viewer.
+> - **The Hashtags:** Should include specific tags derived from the list (like #SourdoughDiscard) and broader category tags (like #Baking)."
+
+---
+
+### Option 3: The "Hashtag-Only" Prompt
+Use this if you are happy with your current caption/title but just need a powerful set of hashtags based on your keyword research.
+
+**Prompt:**
+> "Generate a list of 20 highly effective YouTube hashtags based on this core list of keywords: **[Insert keywords]** .
+>
+> **Rules for the hashtags:**
+> - Include a mix of **broad** (popular) and **specific** (niche) tags.
+> - Do not use any hashtags that are irrelevant or spammy.
+> - Prioritize hashtags that people are actually searching for based on the keywords provided.
+> - Group them by relevance, with the top 5 being the most important."
+
+---
+
+### Example of how to fill this out:
+
+Let's say your keywords are: **"digital planner, goodnotes templates, ipad productivity, paperless student, study with me"**
+
+**You would write:**
+
+> "Act as a YouTube SEO strategist. I have a list of target keywords for my next video: **digital planner, goodnotes templates, ipad productivity, paperless student, study with me** .
+>
+> Using only these keywords as a foundation:
+> 1.  **Write a Video Description:** Write a natural, engaging 4-5 sentence video description that seamlessly incorporates all of these keywords.
+> 2.  **Write a Caption:** Create a short, punchy caption for the video link.
+> 3.  **Generate Tiered Hashtags:** Create a list of 15 hashtags based on these keywords. Categorize them into Broad, Medium, and Niche tags."
