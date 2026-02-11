@@ -43,6 +43,35 @@ Install requirements
 
 ## Neovim Plugins
 
+Since the PyPI package is outdated, you can use the repository directly:
+
+```bash
+git clone --depth=1 https://github.com/magic-wormhole/magic-wormhole-mailbox-server
+uv venv
+cd magic-wormhole-mailbox-server
+python setup.py install
+```
+**Using PyPI**
+
+1. **Create a virtual environment**  
+
+   ```bash
+   uv venv
+   ```
+
+2. **Activate the environment**  
+
+   ```bash
+   source .venv/bin/activate.fish   # or use the activation command appropriate for your shell
+   ```
+
+3. **Install the required packages**  
+
+   ```bash
+   uv pip install magic-wormhole-mailbox-server magic-wormhole-transit-relay
+   ```
+
+
 Adapt the plugin‑configuration examples that use <lazy.nvim> so they work with
 whichever package manager you prefer.
 
