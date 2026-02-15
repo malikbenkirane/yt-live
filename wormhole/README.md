@@ -39,6 +39,13 @@ Private Wormhole Relay Installation
 Since the PyPI package is outdated, you can use the repository directly:
 
 ```bash
+### Prerequisites
+
+[uv installation](https://github.com/malikbenkirane/yt-live/tree/main/wormhole#private-wormhole-relay-installation)
+
+```bash
+uv pip install setuptools
+```
 git clone --depth=1 https://github.com/magic-wormhole/magic-wormhole-mailbox-server
 uv venv
 cd magic-wormhole-mailbox-server
