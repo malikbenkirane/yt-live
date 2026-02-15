@@ -43,7 +43,7 @@ Since the PyPI package is outdated, you can use the repository directly:
 [uv installation](https://github.com/malikbenkirane/yt-live/tree/main/wormhole#private-wormhole-relay-installation)
 
 ```bash
-uv pip install setuptools
+uv pip install setuptools magic-wormhole
 ```
 
 ### Install the mailbox server  
