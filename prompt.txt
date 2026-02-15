@@ -1,8 +1,5 @@
 "Act as a YouTube SEO strategist. I have a list of target keywords for my next video:
 
-
-Title: 
-
 Using only these keywords as a foundation:
 1.  **Write a Video Description:** Write a natural, engaging 4-5 sentence video description that seamlessly incorporates all of these keywords without sounding robotic.
 2.  **Write a Caption:** Create a short, punchy caption for the video link that includes the primary keyword (the first one in my list).
