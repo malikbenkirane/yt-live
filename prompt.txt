@@ -1,37 +1,7 @@
-**Video Description (4‑5 sentences)**  
-Feeling the **digital overwhelm** while juggling multiple ideas? In this **live coding** session I’ll show you how to **organize** a fun **side project** using **Flutter**, complete with a handy **relay** pattern that lets you switch contexts with a simple **Ctrl Alt** shortcut. Watch as the app comes together step‑by‑step, and pick up practical tricks to keep your codebase clean and your workflow stress‑free. By the end you’ll have a solid foundation you can reuse on any future project—no more chaotic tabs or missed deadlines!  
-
----
-
-**Caption**  
-🚀 Beat the **digital overwhelm** – live‑code a Flutter side‑project in minutes!  
-
----
-
-### Tiered Hashtags  
+"Act as a YouTube SEO strategist. I have a list of target keywords for my next video:
 
 
-Tech 
-Programming 
-Coding 
-FlutterDev 
-LiveCoding 
-SideProject 
-ProductivityTips 
-AppDevelopment 
-DeveloperLife 
-DigitalOverwhelmSolutions 
-CtrlAltWorkflow 
-FlutterRelayPattern 
-OrganizeYourCode 
-SideProjectFlutter 
-LiveCodingFlutter 
-RelayStateManagement 
-TechStressRelief
-
-"Act as a YouTube SEO strategist. I have a list of target keywords for my next video: **digital overwhelm relay ctrl alt organize live coding flutter side project** .
-
-git clone https://github.com/malikbenkirane/tmr --branch nightly
+Title: 
 
 Using only these keywords as a foundation:
 1.  **Write a Video Description:** Write a natural, engaging 4-5 sentence video description that seamlessly incorporates all of these keywords without sounding robotic.
