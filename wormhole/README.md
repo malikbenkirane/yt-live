@@ -31,14 +31,13 @@ Start transit relay
 
 Finally
 
-    teamtype share --magic-wormhole-relay ws://10.20.10.2:4001/v1
+    teamtype share --magic-wormhole-relay ws://10.20.10.2:4000/v1
 
 Private Wormhole Relay Installation
 --------------------------------------
 
 Since the PyPI package is outdated, you can use the repository directly:
 
-```bash
 ### Prerequisites
 
 [uv installation](https://github.com/malikbenkirane/yt-live/tree/main/wormhole#private-wormhole-relay-installation)
@@ -46,11 +45,53 @@ Since the PyPI package is outdated, you can use the repository directly:
 ```bash
 uv pip install setuptools
 ```
+
+### Install the mailbox server  
+
+```bash
+# 1. Install the required tools
+uv pip install --upgrade pip setuptools          # upgrades pip and installs setuptools
+
+# 2. Clone the repository (shallow clone to save bandwidth)
 git clone --depth=1 https://github.com/magic-wormhole/magic-wormhole-mailbox-server
-uv venv
 cd magic-wormhole-mailbox-server
+
+# 3. Create an isolated virtual environment with uv
+uv venv .venv          # creates .venv inside the project directory
+source .venv/bin/activate   # activate it (use `.venv\Scripts\activate` on Windows)
+
+# 4. Install the server package
 python setup.py install
+
+# 5. Install the client library (so you can talk to the server)
+uv pip install magic-wormhole
 ```
+
+### Install the transit‑relay server  
+
+```bash
+# 1. Install the required tools (if not already done)
+uv pip install --upgrade pip setuptools
+
+# 2. Clone the transit‑relay repository
+git clone --depth=1 https://github.com/magic-wormhole/magic-wormhole-transit-relay
+cd magic-wormhole-transit-relay
+
+# 3. Create a virtual environment
+uv venv .venv
+source .venv/bin/activate   # on Windows: `.venv\Scripts\activate`
+
+# 4. Install the relay package
+python setup.py install
+
+# 5. Install the client library (same as for the mailbox server)
+uv pip install magic-wormhole
+```
+
+**Tips**
+
+- Run `deactivate` to leave the virtual environment when you’re done.  
+- Use `uv pip list` inside the venv to verify that `magic-wormhole` (and any other dependencies) are installed.  
 
 **Using PyPI**
 
@@ -149,3 +190,15 @@ Annexes
 - <https://cloud.google.com/compute/vm-instance-pricing>
 - <https://cloud.google.com/compute/all-pricing>
 - <https://cloud.google.com/confidential-computing/confidential-vm/pricing>
+
+Troubleshooting
+---------------
+
+    rm *.sqlite
+    twist wormhole-mailbox --usage-db=usage.sqlite --port=tcp:4000
+    twist transitrelay --port=tcp:4001
+
+    rm -rf .teamtype
+    # then restart magic wormhole
+
+Issues may occur with too many files... 
